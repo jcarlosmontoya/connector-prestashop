@@ -36,3 +36,4 @@ class PrestashopSpecificPrice(models.Model):
 class PricelistSpecificPriceAdapter(GenericAdapter):
     _model_name = 'prestashop.specific.price'
     _prestashop_model = 'specific_prices'
+    _export_node_name = 'specific_price'

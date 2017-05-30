@@ -9,6 +9,7 @@ from openerp.addons.connector_prestashop.unit.importer import (
 )
 from openerp.addons.connector_prestashop.models.product_template import (
     importer)
+from openerp.addons.connector.connector import ConnectorUnit
 
 _logger = logging.getLogger(__name__)
 

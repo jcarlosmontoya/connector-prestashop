@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 # © 2017 FactorLibre - Hugo Santos <hugo.santos@factorlibre.com>
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
-# -*- coding: utf-8 -*-
-# License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 from openerp import exceptions, _
 from openerp.addons.connector_prestashop.backend import prestashop
 from openerp.addons.connector_prestashop.unit.importer import (

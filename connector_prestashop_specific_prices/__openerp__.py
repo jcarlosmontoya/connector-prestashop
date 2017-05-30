@@ -5,12 +5,14 @@
     'name': 'Prestashop: Manage Specific Prices with pricelists',
     'version': '8.0.1.0.0',
     'depends': [
-        'connector_prestashop'
+        'connector_prestashop',
+        'connector_prestashop_catalog_manager',
     ],
-    'category': 'Sales Management',
-    'author': 'Odoo Community Association (OCA),FactorLibre',
+    'category': 'Connector',
+    'author': 'Factorlibre,'
+              'Odoo Community Association (OCA)',
     'license': 'AGPL-3',
-    'website': 'http://www.factorlibre.com',
+    'website': 'https://github.com/OCA/connector-prestashop',
     'data': [
         'security/ir.model.access.csv',
         'views/prestashop_specific_price_view.xml',
